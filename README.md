@@ -14,7 +14,7 @@ This repository contains the code for a Testimonials Grid Section, which can be 
 - [License](#license)
 
 ## Demo
-You can view a live demo of the Testimonials Grid Section [here](https://your-demo-url.com).
+You can view a live demo of the Testimonials Grid Section [here]().
 
 ## Features
 - Responsive design using CSS Grid and media queries.
