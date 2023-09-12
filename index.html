@@ -28,13 +28,14 @@
     <!-- Skip to Main -->
     <a href="#grid" id="skip-to-content">Skip to main content</a>
     <!-- Grid -->
-    <main id="grid">
+    <main id="grid" aria-labelledby="daniel-header" >
       <!-- Daniel Clifford -->
       <div
         id="daniel"
         class="card"
         role="region"
         aria-labelledby="daniel-header"
+        tabindex="0"
       >
         <svg width="104" height="102" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -43,7 +44,7 @@
             fill-rule="nonzero"
           />
         </svg>
-        <div class="header" id="daniel-header">
+        <div class="header" tabindex="0">
           <picture>
             <source srcset="./images/image-daniel.avif" type="image/avif" />
             <img
@@ -53,7 +54,7 @@
               alt="Daniel Clifford Picture"
             />
           </picture>
-          <h1>Daniel Clifford<span>Verified Graduate</span></h1>
+          <h1 id="daniel-header">Daniel Clifford<span>Verified Graduate</span></h1>
         </div>
         <p>
           I received a job offer mid-course, and the subjects I learned were
@@ -76,8 +77,9 @@
         class="card"
         role="region"
         aria-labelledby="jonathan-header"
+        tabindex="0"
       >
-        <div class="header" id="jonathan-header">
+        <div class="header" tabindex="0">
           <picture>
             <source srcset="./images/image-jonathan.avif" type="image/avif" />
             <img
@@ -87,7 +89,7 @@
               alt="Jonathan Walters Picture"
             />
           </picture>
-          <h1>Jonathan Walters<span>Verified Graduate</span></h1>
+          <h1 id="jonathan-header">Jonathan Walters<span>Verified Graduate</span></h1>
         </div>
         <p>The team was very supportive and kept me motivated</p>
         <span>
@@ -96,9 +98,76 @@
           investments I’ve made in myself. ”
         </span>
       </div>
+      <!-- Jeanette Harmon -->
+      <div
+      id="jeanette"
+      class="card"
+      role="region"
+      aria-labelledby="jeanette-header"
+      tabindex="0"
+      >
+        <div class="header" tabindex="0">
+          <picture>
+            <source srcset="./images/image-jeanette.avif" type="image/avif" />
+            <img
+              height="40"
+              width="40"
+              src="./images/image-jeanette.jpg"
+              alt="Jeanette Harmon Picture"
+              />
+            </picture>
+          <h1 id="jeanette-header">Jeanette Harmon<span>Verified Graduate</span></h1>
+        </div>
+        <p>An overall wonderful and rewarding experience</p>
+        <span
+        >“ Thank you for the wonderful experience! I now have a job I really
+        enjoy, and make a good living while doing something I love. ”</span
+        >
+      </div>
+
+      <!-- Patrick Abrams -->
+      <div
+      id="patrick"
+      class="card"
+      role="region"
+      aria-labelledby="patrick-header"
+      tabindex="0"
+      >
+      <div class="header" tabindex="0">
+        <picture>
+          <source srcset="./images/image-patrick.avif" type="image/avif" />
+          <img
+          height="40"
+          width="40"
+          src="./images/image-patrick.jpg"
+          alt="Patrick Abrams Picture"
+          />
+        </picture>
+          <h1 id="patrick-header">Patrick Abrams<span>Verified Graduate</span></h1>
+        </div>
+        <p>
+          Awesome teaching support from TAs who did the bootcamp themselves.
+          Getting guidance from them and learning from their experiences was
+          easy.
+        </p>
+        <span
+        >“ The staff seem genuinely concerned about my progress which I find
+        really refreshing. The program gave me the confidence necessary to be
+        able to go out in the world and present myself as a capable junior
+        developer. The standard is above the rest. You will get the personal
+        attention you need from an incredible community of smart and amazing
+        people. ”</span
+        >
+      </div>
       <!-- Kira Whittle -->
-      <div id="kira" class="card" role="region" aria-labelledby="kira-header">
-        <div class="header" id="kira-header">
+      <div
+        id="kira"
+        class="card"
+        role="region"
+        aria-labelledby="kira-header"
+        tabindex="0"
+      >
+        <div class="header" tabindex="0">
           <picture>
             <source srcset="./images/image-kira.avif" type="image/avif" />
             <img
@@ -108,7 +177,7 @@
               alt="Kira Whittle Picture"
             />
           </picture>
-          <h1>Kira Whittle<span>Verified Graduate</span></h1>
+          <h1 id="kira-header">Kira Whittle<span>Verified Graduate</span></h1>
         </div>
         <p>Such a life-changing experience. Highly recommended!</p>
         <span
@@ -124,65 +193,6 @@
           experience. It certainly helped me land a job as a full-stack
           developer after receiving multiple offers. 100% recommend! ”
         </span>
-      </div>
-      <!-- Jeanette Harmon -->
-      <div
-        id="jeanette"
-        class="card"
-        role="region"
-        aria-labelledby="jeanette-header"
-      >
-        <div class="header" id="jeanette-header">
-          <picture>
-            <source srcset="./images/image-jeanette.avif" type="image/avif" />
-            <img
-              height="40"
-              width="40"
-              src="./images/image-jeanette.jpg"
-              alt="Jeanette Harmon Picture"
-            />
-          </picture>
-          <h1>Jeanette Harmon<span>Verified Graduate</span></h1>
-        </div>
-        <p>An overall wonderful and rewarding experience</p>
-        <span
-          >“ Thank you for the wonderful experience! I now have a job I really
-          enjoy, and make a good living while doing something I love. ”</span
-        >
-      </div>
-
-      <!-- Patrick Abrams -->
-      <div
-        id="patrick"
-        class="card"
-        role="region"
-        aria-labelledby="patrick-header"
-      >
-        <div class="header" id="patrick-header">
-          <picture>
-            <source srcset="./images/image-patrick.avif" type="image/avif" />
-            <img
-              height="40"
-              width="40"
-              src="./images/image-patrick.jpg"
-              alt="Patrick Abrams Picture"
-            />
-          </picture>
-          <h1>Patrick Abrams<span>Verified Graduate</span></h1>
-        </div>
-        <p>
-          Awesome teaching support from TAs who did the bootcamp themselves.
-          Getting guidance from them and learning from their experiences was
-          easy.
-        </p>
-        <span
-          >“ The staff seem genuinely concerned about my progress which I find
-          really refreshing. The program gave me the confidence necessary to be
-          able to go out in the world and present myself as a capable junior
-          developer. The standard is above the rest. You will get the personal
-          attention you need from an incredible community of smart and amazing
-          people. ”</span
-        >
       </div>
     </main>
     <div class="attribution" role="contentinfo">
