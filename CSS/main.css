@@ -2,7 +2,7 @@
 :root {
   --white: hsl(0, 0%, 100%);
   --transparent-white: rgb(255 255 255 / 79%);
-  --dark-grayish-blue: hsl(217, 19%, 35%);
+  --dark-grayish-blue: hsl(217 19% 32% / 1);
   --dark-blackish-blue: hsl(219, 29%, 14%);
 }
 
