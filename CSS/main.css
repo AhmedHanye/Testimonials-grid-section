@@ -1,7 +1,7 @@
 /* Varaibles */
 :root {
   --white: hsl(0, 0%, 100%);
-  --transparent-white: rgba(100%, 100%, 100%, 50%);
+  --transparent-white: rgb(255 255 255 / 79%);
   --dark-grayish-blue: hsl(217, 19%, 35%);
   --dark-blackish-blue: hsl(219, 29%, 14%);
 }
@@ -62,11 +62,11 @@ body {
 }
 #grid > .card > .header > p {
   margin-top: 5px;
-  line-height: 20px;
+  line-height: 18.5px;
 }
 #grid > .card > .header > p > span {
   display: block;
-  font-size: 13px;
+  font-size: 12.5px;
 }
 #grid > .card > .header > picture > img {
   border: 3px solid var(--transparent-white);
@@ -83,7 +83,7 @@ body {
 #grid > .card > p,
 #grid > .card > span {
   margin-left: 5px;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Daniel */
@@ -92,7 +92,6 @@ body {
   max-width: 650px;
   background-color: hsl(263, 55%, 52%);
   position: relative;
-  z-index: -2;
 }
 #grid > #daniel span {
   color: var(--transparent-white);
@@ -101,7 +100,7 @@ body {
   position: absolute;
   top: 8px;
   right: 110px;
-  z-index: -1;
+  z-index: 1;
   transform: scale(1.17);
 }
 /* Jonathan */
