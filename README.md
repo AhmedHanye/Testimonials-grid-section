@@ -1,6 +1,6 @@
 # Testimonials Grid Section
 
-![Website Preview](design/desktop-design.jpg)
+![Website Preview](design/MyDesign.png)
 
 
 This repository contains the code for a Testimonials Grid Section, which can be used as a component in your web projects. It displays testimonials from graduates of a bootcamp.
