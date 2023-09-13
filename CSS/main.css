@@ -19,7 +19,8 @@ html {
 }
 @font-face {
   font-family: "Barlow Semi Condensed";
-  src: local("../Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf")format("truetype");
+  src: local("../Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf")
+    format("truetype");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
